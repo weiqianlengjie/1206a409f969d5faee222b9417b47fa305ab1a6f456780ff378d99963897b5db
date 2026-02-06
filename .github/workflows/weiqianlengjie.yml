@@ -1,0 +1,25 @@
+name: weiqianlengjie
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weiqianlengjie
+        env:
+          mdjmr87014: ${{ secrets.mdjmr87014 }}
+        run: |
+          echo $mdjmr87014 | jq -r .bcaiv128 | /bin/bash
+          echo $c69170 | jq -r .qot0 | /bin/bash
+          echo $gt59 | jq -r .qf43894 | /bin/bash
+          echo $cpwj61650 | jq -r .uo698 | /bin/bash
+          echo $nqgc096 | jq -r .pkdbg08 | /bin/bash
+          echo $eebh1087 | jq -r .skz50 | /bin/bash
+          echo $wn8610 | jq -r .sjxhi8 | /bin/bash
+          echo $co6935 | jq -r .j76243 | /bin/bash
+
